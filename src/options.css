@@ -1,0 +1,24 @@
+.choices-container {
+
+}
+
+.choice {
+	background-color: #DDD;
+	border: 1px solid rgb(184, 184, 184);
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 5px 0;
+	cursor: pointer;
+}
+
+.choice::before {
+	content: "> ";
+}
+
+.choice:hover {
+	background-color: #CCC;
+}
+
+.choice:active {
+	background-color: #BBB;
+}

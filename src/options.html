@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="style.css"> 
+		<link rel="stylesheet" href="options.css"> 
 	</head>
 
 	<body>
@@ -21,16 +22,13 @@
 					<!-- RIGHT COLUMN -->
 					<div class="column right-column">
 						<h1>
-							"Media Player" is from an unidentified developer.
-							<br>Are you aure you want to open it?
+							Why did you choose to open this application?
 						</h1>
-						<p>
-							Opening "Media Player" will always allow it to run on this Mac.
-						</p>
-						<p class="grey">
-							"Media Player" is on the disk image "media-player-installer.dmg".
-							Google Chrome downloaded this disk image today at 16:40 from <span class="strong">www.mediaplayer.example.com</span>.
-						</p>
+						<div class="choices-container">
+							<div class="choice">See popup too much</div>
+							<div class="choice">I just want to get to the media player</div>
+							<div class="choice">Stop sign picture</div>
+						</div>
 					</div>
 
 				</div>
@@ -39,7 +37,6 @@
 				<div class="footer">
 					<div class="button-row">
 						<div class="button highlighted" onclick="window.open('blank.html','_self')">Cancel</div>
-						<div class="button" onclick="window.open('options.html','_self')">Open</div>
 					</div>
 				</div>
 			</div>
