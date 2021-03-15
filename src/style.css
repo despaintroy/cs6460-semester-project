@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*============================================
+                   POPUP
+============================================*/
+.popup {
+	background-color: rgb(233, 233, 233);
+	width: 600px;
+	margin: 10% auto;
+	box-shadow: 10px 10px 30px #BBB;
+	border-radius: 10px;
+	border: 1px solid rgb(184, 184, 184);
+	overflow: hidden;
+}
+
+
+/*============================================
+                   GENERAL
+============================================*/
+
+.icon {
+    width: 100%;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 13pt;
+}
+
+.grey {
+    color: #888;
+}
+
+.strong {
+    font-weight: bold;
+    color: black;
+}
+
+
+/*============================================
+                   TOOLBAR
+============================================*/
+
+.popup-toolbar {
+	background-image: linear-gradient(to bottom, rgb(224,224,224) , rgb(202,202,202));
+	border-bottom: 1px solid rgb(184, 184, 184);
+	width: 100%;
+	text-align: center;
+	min-height: 25px;
+	padding: 3px;
+}
+
+
+/*============================================
+                BODY COLUMNS
+============================================*/
+  
+.column-container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+	float: left;
+	padding: 10px;
+}
+
+.left-column {
+	width: 30%;
+}
+
+.right-column {
+	width: 70%;
+}
+
+
+/*============================================
+                  Footer
+============================================*/
+
+.footer {
+
+}
+
+/*============================================
+                  Buttons
+============================================*/
+
+.button-row {
+    text-align: right;
+    margin: 0 30px 30px;
+    padding: 0 0 30px;
+}
+
+.button {
+    background-color: white;
+    width: 80px;
+    padding: 3px;
+    text-align: center;
+	border-radius: 10px;
+	border: 1px solid rgb(184, 184, 184);
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+}
+
+.button:active {
+    background-color: #EEE;
+}
+
+.button.highlighted {
+	background-image: linear-gradient(to bottom, rgb(110,165,235) , rgb(45,115,245));
+    border: 1px solid rgb(45, 95, 200) !important;
+    color: white;
+}
+
+.button.highlighted:active {
+	background-image: linear-gradient(to bottom, rgb(45,115,245), rgb(110,165,235)) !important;
+}
