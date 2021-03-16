@@ -3,9 +3,15 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+.reset {
+	font-size: 14pt;
+	text-align: center;
+}
+
 /*============================================
                    POPUP
 ============================================*/
+
 .popup {
 	background-color: rgb(233, 233, 233);
 	width: 600px;
