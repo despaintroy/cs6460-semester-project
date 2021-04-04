@@ -16,9 +16,9 @@ p {
 }
 
 .menu-link {
-	font-weight: unset;
+	font-weight: bold;
 }
 
-.consent-link:hover {
+.menu-link:hover {
 	text-decoration: underline;
 }
