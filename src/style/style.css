@@ -3,10 +3,6 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.reset {
-	font-size: 14pt;
-	text-align: center;
-}
 
 /*============================================
                    POPUP
@@ -76,6 +72,24 @@ h1 {
     color: #888;
 }
 
+a {
+	text-decoration: none;
+	color: rgb(59, 87, 129);
+}
+
+.cta {
+	background-color: rgb(24, 50, 99);
+	font-size: 15pt;
+	padding: 5pt 10pt;
+	border-radius: 5pt;
+	cursor: pointer;
+	color: white;
+	margin: 5px 10px;
+}
+
+.cta:hover {
+	background-color: rgb(47, 84, 153)
+}
 
 /*============================================
                    TOOLBAR
